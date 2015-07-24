@@ -1,0 +1,19 @@
+# Site settings
+title: Culture Coding
+header-img: img/home-bg.jpg
+email: culture.coding@gmail.com
+description: "Culture coding description!"
+baseurl:
+url:
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+extension: redcarpet
+highlighter: redcarpet
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
