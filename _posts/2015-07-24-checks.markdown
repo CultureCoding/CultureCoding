@@ -12,7 +12,7 @@ The operation of CHECK itself can by further detailed by subcode.
 
 EXAMPLE:
 
-```
+<pre><code>
 CHECK: faces
 	ROAM your focus
 	WHEN you focus on a face:
@@ -20,7 +20,7 @@ CHECK: faces
 		CONSIDER face: expression
 		OBSERVE thoughts
 		ASSOCIATE thoughts with words
-```
+</code></pre>
 
 Here, the faces form the basic guiding frame. When they lead to you focusing on a single face, a suboperation is engaged.
 

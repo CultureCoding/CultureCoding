@@ -70,7 +70,7 @@ jQuery(document).ready(function($) {
 });
 
 // code highlighting activation
-hljs.configure({useBR: true});
+// hljs.configure({useBR: true});
 
 $('code').each(function(i, block) {
   hljs.highlightBlock(block);
