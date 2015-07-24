@@ -41,7 +41,7 @@ If you chose option 2, create root folder for all git repos. (E.g. in Linux my r
 windows its c:/git). After that fetch the repository:
 
 ```
-[TODO]
+git clone https://github.com/CultureCoding/CultureCoding.github.io.git
 ```
 
 ## Modifying and adding pages
