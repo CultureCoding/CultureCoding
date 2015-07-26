@@ -24,12 +24,12 @@ Next just get the source codes and say ```jekyll serve``` in the folder the sour
 
 ---
 
-If you want to modify styles or write JavaScript logic you need also:
+If you want to modify styles or write JavaScript logic you also have to install:
 
-- [NodeJS](https://nodejs.org/). Currently, it is used for Css and JavaScript minification and css compilation (LESS). Compliled files are stored to Git, and thus, if you only produce content and need not tweak styles or JavaScript you don't need Node.js.
-- Grunt command line utility
+1. [NodeJS](https://nodejs.org/). Currently, it is used for Css and JavaScript minification and css compilation (LESS). Compliled files are stored to Git, and thus, if you only produce content and need not tweak styles or JavaScript you don't need Node.js.
+2. Grunt command line utility. After you have installed NodeJS but run in shell/command prompt: ```npm install grunt-cli --global```
 
-Install grunt command line utility after you have installed nodejs but runin in shell/command prompt: ```npm install grunt-cli --global```
+To recompile CSS and JavaScript run: ```grunt``` in the root folder of the repository folder.
 
 ## Downloading the source code
 
