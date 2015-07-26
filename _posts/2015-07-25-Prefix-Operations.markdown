@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      "Prefic Operations"
+title:      "Prefix Operations"
 date:       2015-07-24 12:00:00
 author:     ""
 header-img: ""
-categories: [simple, language]
+tags: [simple, language]
 ---
 
 
