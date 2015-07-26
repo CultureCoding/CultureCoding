@@ -17,10 +17,6 @@ learn new things, I recommend that you use grafical Git utility. There are many 
 fastest and most flexible way to use git.
 3. [Ruby v. 2.0 or newer](http://ruby-lang.com). Notices that the default installation of Ruby is conservatively v. 1.9.x. GitHub pages recommends to use Ruby 2.0+. Depending on the way you may need to installa Ruby development tools; e.g. I installed Ruby to Linux Mint by using apt-get, and I needed to install dev tools in addition. If you use an installation wizard, you probaly can choose to install dev tools.
 
-If you want to modify styles or write JavaScript logic you need also:
-
-4. [NodeJS](https://nodejs.org/). Currently, it is used for Css and JavaScript minification and css compilation (LESS). Compliled files are stored to Git, and thus, if you only produce content and need not tweak styles or JavaScript you don't need Node.js.
-
 After this you need to install following Gems (Gem is a Ruby utility library or extensions):
 
 - [Jekyll](http://jekyllrb.com/)
@@ -29,15 +25,18 @@ Install Jekyll by runing in shell/command prompt: ```gem install jekyll```.
 
 If you get error you probably don't have Ruby development tools installed for the correct version of ruby. Google the error, you probably find out the way to installe them to your OS.
 
-If you want to modify styles and write JavaScript install in addition:
-
-- Grunt command line utility
-
-In shell/command prompt run: ```npm install grunt-cli --global```
-
 That all. Next you need to get the source codes and say ```jekyll serve``` in the folder the source code are located. Once jekyll dev server is up and running, open broser and got to [http://localhost:4000](http://localhost:4000)
 
-## Downloading the sources
+---
+
+If you want to modify styles or write JavaScript logic you need also:
+
+- [NodeJS](https://nodejs.org/). Currently, it is used for Css and JavaScript minification and css compilation (LESS). Compliled files are stored to Git, and thus, if you only produce content and need not tweak styles or JavaScript you don't need Node.js.
+- Grunt command line utility
+
+Install grunt command line utility after you have installed nodejs but runin in shell/command prompt: ```npm install grunt-cli --global```
+
+## Downloading the source code
 
 If you chose option 2, create root folder for all git repos. (E.g. in Linux my root folder is ~/git/ and in
 windows its c:/git). After that fetch the repository:
