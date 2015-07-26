@@ -4,9 +4,10 @@ title:      "Blurrifier"
 date:       2015-07-24 12:00:00
 author:     ""
 header-img: ""
+tags: [function,imaginations]
 ---
 
-```
+```ccode
 SELECT a Target of interest
   NAME it Target1
 
