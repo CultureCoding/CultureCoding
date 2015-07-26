@@ -16,16 +16,11 @@ In order to produce content you need:
 learn new things, I recommend that you use grafical Git utility. There are many free tools, but you can start with GitHub's own GUI choise. Install: [GitHub for Mac](https://mac.github.com/) or [GitHub for Windows](https://windows.github.com/). I have not used these myself, but it seems to be relatively easy to use. If do decide to used GIT commandline utility, great - it's a good choise: once you have learned the basics commandline is
 fastest and most flexible way to use git.
 3. [Ruby v. 2.0 or newer](http://ruby-lang.com). Notices that the default installation of Ruby is conservatively v. 1.9.x. GitHub pages recommends to use Ruby 2.0+. Depending on the way you may need to installa Ruby development tools; e.g. I installed Ruby to Linux Mint by using apt-get, and I needed to install dev tools in addition. If you use an installation wizard, you probaly can choose to install dev tools.
+4. After Ruby instal [Jekyll](http://jekyllrb.com/) by runing in shell/command prompt: ```gem install jekyll```. (If you get error you probably don't have Ruby development tools installed for the correct version of ruby. Google the error, you probably find out the way to installe them to your OS.)
 
-After this you need to install following Gems (Gem is a Ruby utility library or extensions):
+That all. 
 
-- [Jekyll](http://jekyllrb.com/)
-
-Install Jekyll by runing in shell/command prompt: ```gem install jekyll```.
-
-If you get error you probably don't have Ruby development tools installed for the correct version of ruby. Google the error, you probably find out the way to installe them to your OS.
-
-That all. Next you need to get the source codes and say ```jekyll serve``` in the folder the source code are located. Once jekyll dev server is up and running, open broser and got to [http://localhost:4000](http://localhost:4000)
+Next just get the source codes and say ```jekyll serve``` in the folder the source code are located. Once jekyll dev server is up and running, open broser and got to [http://localhost:4000](http://localhost:4000)
 
 ---
 
