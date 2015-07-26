@@ -38,14 +38,16 @@ Install grunt command line utility after you have installed nodejs but runin in 
 
 ## Downloading the source code
 
-If you chose option 2, create root folder for all git repos. (E.g. in Linux my root folder is ~/git/ and in
-windows its c:/git). After that fetch the repository:
+If you installed GitHub for your OS, well --- read the getting strated tutorial: [GitHub for Mac help page](https://mac.github.com/help.html) and [GitHub for Windows help page](https://windows.github.com/help.html).
 
+If you chose to use git bash, save you nerves and create first ssh-key for git. GitHub have pretty good [instructions](https://help.github.com/articles/generating-ssh-keys/).
+
+Then say:
 ```
-git clone https://github.com/CultureCoding/CultureCoding.github.io.git
+git clone git@github.com:CultureCoding/CultureCoding.github.io.git
 ```
 
-If you installed GitHub for your OS, well --- read the getting strated tutorial.
+TODO add link to good git bash tutorial. 
 
 ## Modifying and adding pages
 
