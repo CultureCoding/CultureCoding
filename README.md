@@ -10,6 +10,7 @@
 ## Installing development enviroment
 
 In order to produce content you need:
+
 1. [Git](https://git-scm.com/).
 2. By default git comes with excelled commandline utility and terrible GUI. If you want to minimize need to
 learn new things, I recommend that you use grafical Git utility. There are many free tools, but you can start with GitHub's own GUI choise. Install: [GitHub for Mac](https://mac.github.com/) or [GitHub for Windows](https://windows.github.com/). I have not used these myself, but it seems to be relatively easy to use. If do decide to used GIT commandline utility, great - it's a good choise: once you have learned the basics commandline is
