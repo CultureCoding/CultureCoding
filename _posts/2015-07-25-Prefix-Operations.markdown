@@ -8,70 +8,42 @@ categories: [simple, language]
 ---
 
 
-<div class="col-sm-6 .col-md-4"><pre><code>
-thing1(-)thing2
----------------
+```
+ADD [prefix] to something and reflect/play with the produced prefixthing.
 
-</code></pre></div>
+[prefix]: Creates a new concept by modifying what it attaches to. For example, when the prefix un- is added to window, it creates the concept unwindow.
 
-<div class="col-sm-6 .col-md-4"><pre><code>
-thing1(-)thing2
----------------
-
-(-) pronounce “minus”
-
-Subtractive reduction:
-Narrow meaning or essence of second thing with the first thing
-</code></pre></div>
-
-<div class="col-sm-6 .col-md-4"><pre><code>
-thing1(+)thing2
----------------
-
-(+) pronounce “plus”
-
-
-Additive expansion; read “plus”:
-Expand meaning or essence of first thing with the second thing
-</code></pre></div>
-
-
-<div class="col-sm-6 .col-md-4"><pre><code>
-thing1(#)thing2
----------------
-
-(#) pronounce “sharp”
-
-Tag expansion
-Treat meaning or essence of first thing as if it was second thing or as a manifestation of second thing. The second thing tags something essential in the first thing
-</code></pre></div>
-
-<div class="col-sm-6 .col-md-4"><pre><code>
-thing1(.)thing2
----------------
-
-(#) pronounce “dot”
-
-Zoom to details:
-Second thing is a property or attribute of the first thing
-</code></pre></div>
-
-<div class="col-sm-6 .col-md-4"><pre><code>
-thing1(@)thing2
----------------
-
-(#) pronounce “at”
-
-Contextual reduction:
-Second thing sets context or interpretation environment for the first thing
-</code></pre></div>
-
-<div class="col-sm-6 .col-md-4"><pre><code>
-thing1(&lt;-)thing2
------------------
-
-(&lt;-) pronounce “left arrow”
-
-Substitution:
-Substitute meaning or essence of the first thing with the second one and reflect how it impact your thinking and experiencing
-</code></pre></div>
+Possible prefixes:
+allo: other
+anti: against, negated
+co: together
+contra: against, opposing
+dys: negative, badly, wrongly
+epi: on, above
+hemi: half
+hyper: a lot; too much
+hypo: a little; not enough
+infra: below
+inter: between
+intra: within
+macro: large-scale
+micro: small-scale
+multi: many, more than one
+over: excess, too much
+pan: all
+para: beside; beyond; related to; altered
+peri: around
+poly: many
+post: after
+pre: before; already
+pro: in favor of
+proto: first; primitive; precursor
+pseudo: false, specious
+quasi: somewhat, resembling
+semi: partial; somewhat; half
+sub: below
+super: above; more than; great
+supra: above
+trans: across; connecting
+xeno: foreign
+```
