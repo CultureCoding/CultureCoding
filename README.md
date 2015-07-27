@@ -1,5 +1,62 @@
 # Culture Coding website
 
+## Use cases
+
+### 1. Traveling to somewhere or waiting something.
+
+* Motivation to use: Fight against boredom
+* Device: Mobile, sometimes: tablet
+
+### 2. Surf internet and follow links (e.g. from another website or SoMe)
+
+* Motivation to use: Find out if CC is something interesting, read more on CC, exampine
+* Device: Desktop or tablet; sometimes mobile
+
+### 3. Socialize
+
+* Motivation to use: Do something interesting with friends or share something interesting for them
+* Device: any
+* Notes: Sharing links to SoMe
+
+### 3. Introduce idea to someone (e.g. in cafe/restauran, or in event)
+
+* Motivation to use: Keypoints what is CC, show & use examples
+* Device: Mobile, sometimes: tablet or laptop
+
+### 4. Use code to create value e.g. in a creative workshops
+
+* Motivation to use: varying external motivations, e.g. find a tool to generate ideas or think out of the box
+* Device: Desktop, printer
+
+
+## Ideas and constraints
+
+### General
+
+* Mobile first design. In many common use cases the site is used by a mobile device or by tablet.
+* Twitter handle?
+
+### Landing page structure
+
+* Title (Cultere Code and Culture Coding are both possible, former is prefered.)
+* Short motto under the title
+* Synopsis (~three sentences, only little text, possibly some icons or images)
+* Featuring code (jotta sivu näyttää erillaiselta)/News/Events. Something that changes and give user a motivation to return.
+* Code listing & once there are more than 20 codes nice search. In the beginning there need not be many codes (mayby 5-10). Quality over quantity.
+
+### Code pages
+
+* Easy to read with any device
+* Easy to share
+
+### Images
+
+* Frames?
+* Symbolic picture? Also photos?
+
+
+# Technical instructions
+
 ## How it works
 
 - Website is build on [Jekyll](http://jekyllrb.com/). Jekyll is Blog-aware engine that generates plain html-sites. I.e. there is no server-side logic for rendering pages to user - just static files. Even if the "compiled" Jekyll sites consist of static files, there's quite a lot of logic for the site generation. You can have "master pages" or "pages templates", and you can have reusable components. The actual content pages are either [Markdown markup language](https://guides.github.com/features/mastering-markdown/) (with [GitHub flavour](https://help.github.com/articles/github-flavored-markdown/)) or plain HTML (or both because in Markdown you can use HTML). In addition to can have arbitraty metadata for a page.
@@ -15,7 +72,7 @@ In order to produce content you need to install:
 3. [Ruby v. 2.0 or newer](http://ruby-lang.com). Notice that the default installation of Ruby is conservatively v. 1.9.x. GitHub pages recommends to use Ruby 2.0+. Depending on the way you've installed Ruby, you may need to install Ruby Development Tools; e.g. I installed Ruby to Linux Mint by using apt-get, and I needed to install dev tools in addition. If you use an installation wizard, you probaly can choose to install dev tools.
 4. [Jekyll](http://jekyllrb.com/). After you have installed Ruby, install Jekyll by runing in shell/command prompt: ```gem install jekyll```. (If you get error you probably don't have Ruby development tools installed for the correct version of ruby. Google the error, you probably find out the way to installe them to your OS.)
 
-That all. 
+That all.
 
 Next just get the source code from GitHub and run ```jekyll serve``` in the folder the source code are located. Once Jekyll development server is up and running, open browser and go to [http://localhost:4000](http://localhost:4000)
 
@@ -40,7 +97,7 @@ cd [your root folder for git projects]
 git clone git@github.com:CultureCoding/CultureCoding.github.io.git
 ```
 
-TODO add link to good git bash tutorial. 
+TODO add link to good git bash tutorial.
 
 ## Modifying and adding pages
 
