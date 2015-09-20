@@ -57,9 +57,9 @@ Next I just tweaked the remaining part of the code fragment, so that it supports
 
 ```
 IMAGINE Target1 as an alien artefact
-                         	THINK about the alien species who have created it
-                         	SPECULATE the function of the artefact
-                         	TRY to use it; IF it did not work, why?
+   	THINK about the alien species who have created it
+   	SPECULATE the function of the artefact
+   	TRY to use it; IF it did not work, why?
 PUT AWAY the alien artefact
 ```
 
