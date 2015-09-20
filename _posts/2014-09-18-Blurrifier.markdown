@@ -37,7 +37,15 @@ RETURN.
 Comment: How to modify Blurrifier
 -----------------------
 
-We have earlier mentioned that an advantage of code compared to more rigid approaches you can find in creativity studies, work processes or in self-help literacy. Blurifier is a composition of four smaller functions. That makes it easy to modify. I usually start by refactoring code into functions: .Select_target .ignore_given_meaning, .assign_[target]_as_artwork, .assign_[target]_as_religion and .postpone_return_to_ordinary. Once I have done this I either modify a part or add new part and ask “What would make this code more ?interesting? to me?” and “What in this code is currently create most value for me?”
+We have earlier mentioned that an advantage of code compared to more rigid approaches you can find in creativity studies, work processes or in self-help literacy. Blurifier is a composition of four smaller functions. That makes it easy to modify. I usually start by refactoring code into functions: 
+
+* .Select_target 
+* .ignore_given_meaning, 
+* .assign_[target]_as_artwork, 
+* .assign_[target]_as_religion and 
+* .postpone_return_to_ordinary. 
+
+Once I have done this I either modify a part or add new part and ask “What would make this code more ?interesting? to me?” and “What in this code is currently create most value for me?”
 
 I personally like a lot religion part. I also like the way this code alienate myself from ordinary meanings. Actually, at the moment I’m writing this, the modification to the artwork part is most likely to enhance this code for me. Pretty soon I get idea that I could replace artwork with “scientific tool” or “alien artefact”.
 
