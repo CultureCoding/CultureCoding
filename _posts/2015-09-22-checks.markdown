@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "CHECK"
+date:       2015-09-23 12:00:00
+author:     ""
+header-img: "img/post-bg-02.jpg"
+---
+
+CHECK is guiding frame that is actively compared to your environment, whatever it is. It evaluates your sensual material for matches to its frame.
+
+The operation of CHECK itself can by further detailed by subcode.
+
+EXAMPLE:
+
+<pre><code>
+CHECK: faces
+	ROAM your focus
+	WHEN you focus on a face:
+		HOLD your focus
+		CONSIDER face: expression
+		OBSERVE thoughts
+		ASSOCIATE thoughts with words
+</code></pre>
+
+Here, the faces form the basic guiding frame. When they lead to you focusing on a single face, a suboperation is engaged.
+
+Note that the CHECK does not have to be literal. It makes no difference to it (unless otherwise specified) whether your findings are conventional.
+
+EXAMPLE:
+
+```
+WHILE: listening to music
+	CHECK: worms
+```
+
+This code is likely lead to rather associative worms.
+

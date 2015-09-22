@@ -566,6 +566,9 @@ section p.large {
 	}
 }
 */
+#code-name {
+  color: white;
+}
 footer {
   padding: 25px 0;
   min-height: 400px;
