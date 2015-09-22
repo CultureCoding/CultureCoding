@@ -158,7 +158,7 @@ fieldset[disabled] .btn-xl.active {
   height: 4em;
 }
 .navbar-default .navbar-brand {
-  color: #fed136;
+  color: black;
   font-family: "Roboto Mono", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
@@ -246,7 +246,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: black;
 }
 header .intro-text {
   padding-top: 100px;
