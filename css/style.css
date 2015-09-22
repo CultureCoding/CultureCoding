@@ -482,7 +482,7 @@ section p.large {
   margin-bottom: 0;
 }
 .timeline .timeline-body .timeline-body > p {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 @media (min-width: 2768px) {
   .timeline:before {
