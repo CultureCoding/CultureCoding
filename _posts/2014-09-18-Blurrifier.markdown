@@ -7,7 +7,7 @@ header-img: ""
 tags: [function,imaginations]
 ---
 
-```ccode
+```
 SELECT a Target of interest
   NAME it Target1
 
