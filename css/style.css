@@ -55,6 +55,9 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+.navbar-shrink .navbar-brand#logo-text {
+  color: white;
+}
 .btn-primary {
   color: #ffffff;
   background-color: #fed136;
@@ -226,6 +229,7 @@ fieldset[disabled] .btn-xl.active {
   }
   .navbar-default.navbar-shrink {
     background-color: #222222;
+    color: white;
     padding: 10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
@@ -564,6 +568,7 @@ section p.large {
 */
 footer {
   padding: 25px 0;
+  min-height: 400px;
   text-align: center;
   color: #f7f7f7;
 }
@@ -580,28 +585,32 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
+/*
 ul.social-buttons {
-  margin-bottom: 0;
+	margin-bottom: 0;
+	li {
+		a {
+			display: block;
+			background-color: @gray-darkest;
+			height: 40px;
+			width: 40px;
+			border-radius: 100%;
+			font-size: 20px;
+			line-height: 40px;
+			color: white;
+			outline: none;
+	        -webkit-transition: all 0.3s;
+	        -moz-transition: all 0.3s;
+	        transition: all 0.3s;
+	        &:hover,
+	        &:focus,
+	        &:active {
+						background-color: @brand-primary;
+	        }
+		}
+	}
 }
-ul.social-buttons li a {
-  display: block;
-  background-color: #222222;
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
-  font-size: 20px;
-  line-height: 40px;
-  color: white;
-  outline: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-  background-color: #fed136;
-}
+*/
 .btn:focus,
 .btn:active,
 .btn.active,
