@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "Assign"
+date:       2015-09-23 12:00:00
+author:     ""
+header-img: ""
+tags: [simple, language]
+---
+
+```
+ASSIGN interprets something as something else.
+```
+
+```
+ASSIGN: Moving cars AS a river
+```
+
+In this case, anything that is perceived as moving cars will be interpreted as a river. Note that further mentions of a river would refer to your interpreted river, unless otherwise specified.
