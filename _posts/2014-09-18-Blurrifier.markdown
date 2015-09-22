@@ -34,10 +34,10 @@ RETURN.
 
 ----
 
-Comment: How to modify Blurrifier
+COMMENT: How to modify Blurrifier
 -----------------------
 
-We have earlier mentioned that an advantage of code compared to more rigid approaches you can find in creativity studies, work processes or in self-help literacy. Blurifier is a composition of four smaller functions. That makes it easy to modify. I usually start by refactoring code into functions: 
+Blurrifier is a composition of four smaller functions -- this makes it easy to modify. You can start by generalizing the specified aspects of the code: 
 
 * .Select_target 
 * .ignore_given_meaning, 
@@ -45,22 +45,22 @@ We have earlier mentioned that an advantage of code compared to more rigid appro
 * .assign_[target]_as_religion and 
 * .postpone_return_to_ordinary. 
 
-Once I have done this I either modify a part or add new part and ask “What would make this code more ?interesting? to me?” and “What in this code is currently create most value for me?”
+You can then either modify a part or add new one, asking “What would make this code more interesting to me?” and “What is currently the most worthwhile part to me?”
 
-I personally like a lot religion part. I also like the way this code alienate myself from ordinary meanings. Actually, at the moment I’m writing this, the modification to the artwork part is most likely to enhance this code for me. Pretty soon I get idea that I could replace artwork with “scientific tool” or “alien artefact”.
+I'm personally fond of the religion part. I also like the way this code alienates me from ordinary meanings. At the moment I’m writing this, I feel that a modification to the artwork part is most likely to enhance this code for me. Therefore, I develop a version where I replace the artwork with “scientific tool” or “alien artefact”.
 
 ```
 IMAGINE Target1 as an alien artefact
 ```
 
-Next I just tweaked the remaining part of the code fragment, so that it supports as well as possible the idea of alien artefact. Obviously, the title is no more relevant but author can be. I permutated various options in my mind and finally ended up this formulation:
+Next, I just tweak the remaining part of the code fragment so that it supports the idea of an alien artefact. Obviously, the title is now irrelevant -- but the author could still be useful. I experiment with various options in my mind, and finally end up this formulation:
 
 ```
 IMAGINE Target1 as an alien artefact
    	THINK about the alien species who have created it
-   	SPECULATE the function of the artefact
-   	TRY to use it; IF it did not work, why?
+   	SPECULATE about the function of the artefact
+   	TRY to use it; IF it does not work, why?
 PUT AWAY the alien artefact
 ```
 
-Last step is to just try the code with this modification.
+My last step is simply to explore the code with this modification.
